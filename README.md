@@ -13,6 +13,8 @@ The WoodSKE method is suitable for extracting skeletons from woody point clouds 
 ![Test datasets](PNG/Models-ALL.jpg)
 **Results show:**<br> 
 ![Skeleton extraction](PNG/FSD.jpg)
+The Key steps of WoodSKE are Coarse skeleton contraction and Skeleton thinning.<br>
+--
 
 
 
