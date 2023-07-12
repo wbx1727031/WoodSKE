@@ -12,7 +12,7 @@ The WoodSKE method is suitable for extracting skeletons from woody point clouds 
 We share the Python script of WoodSKE and the test datasets (TLS point clouds at single-tree and plot scales) in .csv format.<br> <br>
 **Test Datasets:**<br> 
 ![Test datasets](PNG/Models-ALL.jpg)
-**Results show:**<br> 
+<be> **Results show:**<br> 
 ![Skeleton extraction](PNG/FSD.jpg)
 The key steps of WoodSKE are `Coarse skeleton contraction` and `Skeleton thinning`.<be> The detailed description of these two steps is provided in the related paper. The thinning step of the post-filling coarse skeleton analyzed during the coarse skeleton contraction is shown in the following figure:<br>
 --
