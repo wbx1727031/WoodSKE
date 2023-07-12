@@ -16,7 +16,7 @@ The WoodSKE method is suitable for extracting skeletons from woody point clouds 
 The key steps of WoodSKE are `Coarse skeleton contraction` and `Skeleton thinning`.<be> The detailed description of these two steps is provided in the related paper. The thinning step of the post-filling coarse skeleton analyzed during the coarse skeleton contraction is shown in the following figure:<br>
 --
 ![Skeleton extraction](PNG/Thin.jpg)
-
+The points in the blue spherical area formed the nearby point set (SCO) of a coarse skeleton point PCS (green dot). ESO means the nearest Euclidean distance between PCS and the input point cloud (the distance between PCS and Pnear). PL is the farthest point to Pnear (blue dot) in the SCO. The ESO of PL (orange dot) is ESO ′. In the inset (C), the skeleton point PSKE (red dot) was located by the mean coordinate of points with larger ESO than that of PCS in the dash-shaded area. The red lines present the thinned skeleton.
 
 
 
