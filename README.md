@@ -9,7 +9,7 @@ https://linkinghub.elsevier.com/retrieve/pii/S0303243421002968<br><br>
 ![Graphical Abstract](PNG/GraphicAbstract.png)
 **Highlights:**<br> <br>
 The WoodSKE method is suitable for extracting skeletons from woody point clouds with variable point density and outliers at `the single-tree and plot scales.` Setting seed points or converting the format of discrete point clouds is `not required` when using the WoodSKE method. Besides, the WoodSKE-extracted skeletons maintained the structure of twigs, which provided a base for extracting their inclination angles and other geometrical features. Before running the WoodSKE method, users `do not need to segment individual trees or single branches` from tree point clouds.<br> 
-We share the Python script of WoodSKE and the test datasets (TLS point clouds at single-tree and plot scales) in .csv format.<br> <br>
+We share the Python script of WoodSKE in the `Script` folder and the test datasets (TLS point clouds at single-tree and plot scales) in .csv format in the `TestData` folder.<br> <br>
 **Test Datasets:**<br> 
 ![Test datasets](PNG/Models-ALL.jpg)
 <be> **Results show:**<br> 
