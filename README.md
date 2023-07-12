@@ -12,6 +12,7 @@ The WoodSKE method is suitable for extracting skeletons from woody point clouds 
 We share the Python script of WoodSKE in the `Script` folder and the test datasets (TLS point clouds at single-tree and plot scales) in .csv format in the `TestData` folder.<br> <be>
 --
 **Required Packages:**<br> 
+--
 
 **Test Datasets:**<br> 
 ![Test datasets](PNG/Models-ALL.jpg)
@@ -20,7 +21,9 @@ We share the Python script of WoodSKE in the `Script` folder and the test datase
 The key steps of WoodSKE are `Coarse skeleton contraction` and `Skeleton thinning`.<be> The detailed description of these two steps is provided in the related paper. The thinning step of the post-filling coarse skeleton analyzed during the coarse skeleton contraction is shown in the following figure:<br>
 --
 ![Skeleton extraction](PNG/Thin.jpg)
-The points in the blue spherical area formed the nearby point set (SCO) of a coarse skeleton point PCS (green dot). ESO means the nearest Euclidean distance between PCS and the input point cloud (the distance between PCS and Pnear). PL is the farthest point to Pnear (blue dot) in the SCO. The ESO of PL (orange dot) is ESO ′. In the inset (C), the skeleton point PSKE (red dot) was located by the mean coordinate of points with larger ESO than that of PCS in the dash-shaded area. The red lines present the thinned skeleton.
+The points in the blue spherical area formed the nearby point set (SCO) of a coarse skeleton point PCS (green dot). ESO means the nearest Euclidean distance between PCS and the input point cloud (the distance between PCS and Pnear). PL is the farthest point to Pnear (blue dot) in the SCO. The ESO of PL (orange dot) is ESO ′. In the inset (C), the skeleton point PSKE (red dot) was located by the mean coordinate of points with larger ESO than that of PCS in the dash-shaded area. The red lines present the thinned skeleton.<br><br>
+**Acknowledgments**<br> 
+We sincerely thank providers of the TR dataset (https://doi.org/10.1111/2041-210x.12933) and developers of the LeWoS (https://doi.org/10.1111/2041-210X.13342), Laplacian contraction (https://doi.org/10.1109/SMI.2010.25,https://doi.org/10.1016/j.agrformet.2019.107874), L1-medial ( https://doi.org/10.1145/2461912.2461913), CloudCompare (www.cloudcompare.org), HELIOS ++ (https://www.sciencedirect.com/science/article/pii/S0034425721004922), and Starlab software (https://github.com/OpenGP/starlab). We also thank our colleague Zengxin Yun for helping us compile the HELIOS ++ software.
 
 
 
