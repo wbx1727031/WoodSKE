@@ -1,7 +1,8 @@
 # WoodSKE
 An algorithm to extract skeletons from discrete point clouds of tree branches collected by terrestrial laser scanners
 --
-     This study developed the WoodSKE method to extract 'skeletons' from discrete point clouds of tree branches collected by 'terrestrial laser scanners (TLSs)' for assessing their inclination angles (IAs). A TLS point cloud of tree branches is firstly contracted according to the pointwise local point distribution pattern to extract its coarse skeleton. Then, the coarse skeleton is thinned and optimized by a noise-filtering method. <br>
+     This study developed the WoodSKE method to extract 'skeletons' from discrete point clouds of tree branches collected by 'terrestrial laser scanners (TLSs)' for assessing their inclination angles (IAs). A TLS point cloud of tree branches is firstly contracted according to the pointwise local point distribution pattern to extract its coarse skeleton. Then, the coarse skeleton is thinned and optimized by a noise-filtering method. 
+--
 This algorithm has been published in International Journal of Applied Earth Observations and Geoinformation.<br> 
 
 **DOI**:
