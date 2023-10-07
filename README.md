@@ -18,7 +18,6 @@ We share the Python script of WoodSKE in the `Script` folder and the test datase
 **Required Packages:**<br> 
 Numpy  https://numpy.org/install/<br><br>
 Scipy  https://scipy.org/install/<br><br>
---
 
 **Test Datasets:**<br> 
 ![Test datasets](PNG/Models-ALL.jpg)
