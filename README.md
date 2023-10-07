@@ -16,6 +16,8 @@ The WoodSKE method is suitable for extracting skeletons from woody point clouds 
 We share the Python script of WoodSKE in the `Script` folder and the test datasets (TLS point clouds at single-tree and plot scales) in .csv format in the `TestData` folder.<br> <be>
 
 **Required Packages:**<br> 
+Numpy  https://numpy.org/install/<br><br>
+Scipy  https://scipy.org/install/<br><br>
 --
 
 **Test Datasets:**<br> 
