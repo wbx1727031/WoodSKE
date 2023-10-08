@@ -29,6 +29,8 @@ The points in the blue spherical area formed the nearby point set (SCO) of a coa
 
 **In the folder `script (in Python) `, `WoodSKE.py ` is used to extract the skeleton of woody point clouds, while `ANGLE-CALCULAT.py ` is used to extract the inclination angles of single branches based on the woody point clouds and WoodSKE-extracted skeletons.**<br>
 
+**Hope that the WoodSKE algorithm can be helpful in your research project. If you have any issues, do not hesitate to contact me via email (wbx19911026@outlook.com) or leave a message under this project.
+**Please note that the results obtained by the WoodSKE algorithm still require optimization for the skeleton continuity.
 
 **Acknowledgments**<br> 
 We sincerely thank providers of the TR dataset (https://doi.org/10.1111/2041-210x.12933) and developers of <br><br>the LeWoS (https://doi.org/10.1111/2041-210X.13342), <br><br>Laplacian contraction (https://doi.org/10.1109/SMI.2010.25, https://doi.org/10.1016/j.agrformet.2019.107874), <br><br>L1-medial ( https://doi.org/10.1145/2461912.2461913), <br><br>CloudCompare (www.cloudcompare.org), <br><br>HELIOS ++ (https://www.sciencedirect.com/science/article/pii/S0034425721004922), <br><br> and Starlab software (https://github.com/OpenGP/starlab). <br><br> *We also thank our colleague Zengxin Yun for helping us compile the HELIOS ++ software.
