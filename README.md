@@ -27,7 +27,7 @@ The key steps of WoodSKE are `Coarse skeleton contraction` and `Skeleton thinnin
 ![Skeleton extraction](PNG/Thin.jpg)
 The points in the blue spherical area formed the nearby point set (SCO) of a coarse skeleton point PCS (green dot). ESO means the nearest Euclidean distance between PCS and the input point cloud (the distance between PCS and Pnear). PL is the farthest point to Pnear (blue dot) in the SCO. The ESO of PL (orange dot) is ESO ′. In the inset (C), the skeleton point PSKE (red dot) was located by the mean coordinate of points with larger ESO than that of PCS in the dash-shaded area. The red lines present the thinned skeleton.<br><br>
 
-![Skeleton extraction](PNG/Angle-OP.jpg)
+![Skeleton extraction](PNG/Angle.jpg)
 The SKE-assessed inclination angles of provided woody point clouds. <br>
 
 **In the folder `script (in Python) `, `WoodSKE.py ` is used to extract the skeleton of woody point clouds, while `ANGLE-CALCULAT.py ` is used to extract the inclination angles of single branches based on the woody point clouds and WoodSKE-extracted skeletons.**<br>
