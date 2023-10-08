@@ -19,7 +19,7 @@ Numpy  https://numpy.org/install/<br><br>
 Scipy  https://scipy.org/install/<br><br>
 
 **Test Datasets:**<br> 
-![Test datasets](PNG/Models-ALL.jpg)
+![Test datasets](PNG/3DModels.jpg)
 <be> **Results show:**<br> 
 ![Skeleton extraction](PNG/FSD.jpg)
 The key steps of WoodSKE are `Coarse skeleton contraction` and `Skeleton thinning`.<be> The detailed description of these two steps is provided in the related paper. The thinning step of the post-filling coarse skeleton analyzed during the coarse skeleton contraction is shown in the following figure:<br>
@@ -29,6 +29,7 @@ The points in the blue spherical area formed the nearby point set (SCO) of a coa
 
 ![Skeleton extraction](PNG/Angle-OP.jpg)
 The SKE-assessed inclination angles (SKEIAs) of provided woody point clouds. <br>
+
 **In the folder `script (in Python) `, `WoodSKE.py ` is used to extract the skeleton of woody point clouds, while `ANGLE-CALCULAT.py ` is used to extract the inclination angles of single branches based on the woody point clouds and WoodSKE-extracted skeletons.**<br>
 
 **Hope that the WoodSKE algorithm can be helpful in your research project. If you have any issues, do not hesitate to contact me via email (wbx19911026@outlook.com) or leave a message under this project.**<br> 
