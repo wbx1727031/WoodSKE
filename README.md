@@ -19,8 +19,8 @@ Numpy  https://numpy.org/install/<br><br>
 Scipy  https://scipy.org/install/<br><br>
 
 **Test Datasets:**<br> 
-![Test datasets](PNG/3DM.jpg)
-<be> **Results show:**<br> 
+![Test datasets](PNG/3DM.jpg)<br> 
+**Results show:**<br> 
 ![Skeleton extraction](PNG/FSD.jpg)
 The key steps of WoodSKE are `Coarse skeleton contraction` and `Skeleton thinning`.<be> The detailed description of these two steps is provided in the related paper. The thinning step of the post-filling coarse skeleton analyzed during the coarse skeleton contraction is shown in the following figure:<br>
 
